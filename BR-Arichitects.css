@@ -1,0 +1,182 @@
+
+body
+{   
+    min-height: 100vh;
+    margin: 0;
+}
+.Architects{
+    width: 100%;
+   
+}
+.Architects .navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    background: white;
+    width: 100vw;
+    
+    
+}
+.Architects .navbar .logo{
+    display: flex;
+    margin-left: 50px;
+}
+.Architects .navbar .logo .logo-partie1{
+    font-weight: 200;
+    margin-left: 8px;
+}
+.Architects .navbar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+.Architects .navbar ul li{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+
+.Architects .img-BR{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.Architects .img-BR h1{
+    text-align: center;
+    z-index: 1;
+    top: 50%;
+    left: 43%;
+    position:absolute;
+    
+}
+.Architects .img-BR .h1-ar{
+    margin-left: 130px;
+    margin-top: 40px;
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+}
+.Architects .img-BR .h1-br{
+    
+    background: black;
+    font-size: 50px;
+    font-weight: 600;
+
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0.8;
+    color: white;
+}
+.Architects .img-BR .img1{
+    position: relative;
+    width: 101%;
+    height: 700px;
+}
+.projects{
+    margin-top: 50px;
+}
+.title{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 50px;
+}
+.projects .project-part1{
+    display: flex;
+    position: relative;
+    margin-left: 45px;
+}
+.projects .project-part2{
+    display: flex;
+    position: relative;
+    margin-left: 45px;
+}
+.house{
+    position: relative;
+    margin: 10px 10px;
+    align-items: center;
+    width: 100%;
+}
+.house h4{
+    text-align: center;
+    z-index: 1;
+    top: -9%;
+    left: 0%;
+    position:absolute;
+    background: black;
+    color: rgba(255, 255, 255, 0.743);
+    opacity: 0.9;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+.house img{
+    width: 350px;
+    height: auto;
+}
+.about p{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.person{
+    display: flex ;
+    gap: 20px;
+    width: 100px;
+    margin-left: 90px;
+}
+.person .pers img{
+    width: 300px;
+    height: auto;
+    margin:0 20px;
+}
+.person .pers b{
+    margin-left: 40%;
+    font-weight: 900;
+}
+.person .pers h5{
+    text-align: center;
+    color: gray;
+
+}
+.person .pers p{
+    margin-left: 32px;
+    
+}
+.person .pers button{
+    width: 88%;
+    margin-left: 20px;
+    background: rgb(148, 146, 146);
+    border: none;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact p{
+    margin-left: 50px;
+}
+.contact input{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 96%;
+    height: 40px;
+}
+.contact button{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 35px;
+    background: black;
+    color: white;
+}
+.contact img{
+    width: calc(100% -80px);
+    margin: 30px 50px;
+}
